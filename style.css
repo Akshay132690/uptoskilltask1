@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:20px
+}
+.intro{
+    /* background-color: aqua; */
+    margin:0 auto;
+    max-width: 90%;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h4{
+    color: orangered;
+    border-left: 3px solid grey;
+    padding: 4px;
+    font-family: 'lucid';
+}
+.career{
+    /* background-color: red; */
+    /* display:flex; */
+    /* flex-direction: column; */
+    padding: 10px;
+    line-height: 2em;
+    font-size: 20px;
+    
+}
+.main{
+    display:flex;
+}
+.interninfo{
+    /* background-color: blue; */
+    padding: 10px;
+    line-height: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* float: left; */
+    max-width: 50%;
+    /* float: right; */
+    
+}
+.formdetails{
+    padding: 20px;
+  
+
+}
+input[type='text'],input[type='email'],input[type='date']{
+    width:100%;
+    border: none;
+    line-height: 2em;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(221, 218, 218);
+
+    
+}
+select{
+    width:100%;
+    line-height: 2em;
+    height: 3em;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+textarea{
+    width:100%;
+    line-height: 2em;
+    height: 8em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#p2{
+    font-size: 20px;
+}
+#p3{
+background-color: orangered;
+color: white;
+padding: 20px;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details{
+    padding-top: 10px;
+}
+input[type='submit']
+{
+    width: 8rem;
+    height: 3rem;
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 3px;
+    color: white;
+
+}
+input[type='submit']:hover{
+background-color: wheat;
+color:black;
+border:1px solid orangered;
+}
+
